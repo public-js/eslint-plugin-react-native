@@ -5,10 +5,10 @@
 [![Downloads](https://img.shields.io/npm/dw/@public-js/eslint-plugin-react-native?style=flat)](https://www.npmjs.com/package/@public-js/eslint-plugin-react-native)
 [![Size](https://packagephobia.com/badge?p=@public-js/eslint-plugin-react-native)](https://packagephobia.com/result?p=@public-js/eslint-plugin-react-native)
 
-[![Codacy](https://app.codacy.com/project/badge/Grade/PROJECT_ID)](https://www.codacy.com/gh/public-js/eslint-plugin-react-native/dashboard)
+[![Codacy](https://app.codacy.com/project/badge/Grade/628e8f6d9ac94e8f8a5b453f79646ecc)](https://www.codacy.com/gh/public-js/eslint-plugin-react-native/dashboard)
 [![LGTM](https://img.shields.io/lgtm/grade/javascript/g/public-js/eslint-plugin-react-native?logo=lgtm)](https://lgtm.com/projects/g/public-js/eslint-plugin-react-native/context:javascript)
-[![Codecov](https://codecov.io/gh/public-js/eslint-plugin-react-native/branch/main/graph/badge.svg?token=TOKEN)](https://codecov.io/gh/public-js/eslint-plugin-react-native)
-[![Code Climate](https://api.codeclimate.com/v1/badges/PROJECT_ID/maintainability)](https://codeclimate.com/github/public-js/eslint-plugin-react-native/maintainability)
+[![Codecov](https://codecov.io/gh/public-js/eslint-plugin-react-native/branch/main/graph/badge.svg?token=bhYC8LnbDs)](https://codecov.io/gh/public-js/eslint-plugin-react-native)
+[![Code Climate](https://api.codeclimate.com/v1/badges/2b2130c7c3a1ae0bee22/maintainability)](https://codeclimate.com/github/public-js/eslint-plugin-react-native/maintainability)
 
 Helpful ESLint rules for React Native
 
