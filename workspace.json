@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "eslint-plugin-react-native": "packages/eslint-plugin-react-native"
+  }
+}

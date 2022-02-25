@@ -1,0 +1,42 @@
+{
+  "root": "packages/eslint-plugin-react-native",
+  "sourceRoot": "packages/eslint-plugin-react-native/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/eslint-plugin-react-native/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/eslint-plugin-react-native"],
+      "options": {
+        "jestConfig": "packages/eslint-plugin-react-native/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/eslint-plugin-react-native",
+        "tsConfig": "packages/eslint-plugin-react-native/tsconfig.lib.json",
+        "packageJson": "packages/eslint-plugin-react-native/package.json",
+        "main": "packages/eslint-plugin-react-native/index.ts",
+        "assets": ["README.md", "LICENSE"]
+      }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "npm publish --tag=latest --access public",
+        "cwd": "dist/packages/eslint-plugin-react-native"
+      }
+    }
+  },
+  "tags": []
+}

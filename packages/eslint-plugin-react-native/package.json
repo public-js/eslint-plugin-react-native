@@ -1,0 +1,20 @@
+{
+  "name": "@public-js/eslint-plugin-react-native",
+  "version": "0.0.0",
+  "description": "Helpful ESLint rules for React Native",
+  "dependencies": {
+    "@typescript-eslint/experimental-utils": "^4.8.2 || ^5.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/parser": ">=4.0.0",
+    "eslint": ">=5.0.0"
+  },
+  "license": "MIT",
+  "author": "Public JS <public-js@muffin.blue> (https://github.com/public-js/public-js)",
+  "repository": "https://github.com/public-js/eslint-plugin-react-native",
+  "homepage": "https://github.com/public-js/eslint-plugin-react-native",
+  "keywords": [],
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  }
+}
