@@ -1,4 +1,4 @@
-import { getStyleSheetObjectNames } from './ast-helpers-react-native.js';
+import { getStyleSheetObjectNames } from './ast-helpers-react-native';
 
 describe('astHelpers / getStyleSheetObjectNames', () => {
     it('should return empty array', () => {
