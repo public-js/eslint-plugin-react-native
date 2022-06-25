@@ -1,4 +1,5 @@
-module.exports = {
+/* eslint-disable */
+export default {
     displayName: 'eslint-plugin-react-native',
     preset: '../../jest.preset.js',
     globals: {
