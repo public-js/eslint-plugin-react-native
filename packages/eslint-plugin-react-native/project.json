@@ -1,5 +1,5 @@
 {
-  "root": "packages/eslint-plugin-react-native",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/eslint-plugin-react-native/src",
   "projectType": "library",
   "targets": {
@@ -14,12 +14,12 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/packages/eslint-plugin-react-native"],
       "options": {
-        "jestConfig": "packages/eslint-plugin-react-native/jest.config.js",
+        "jestConfig": "packages/eslint-plugin-react-native/jest.config.ts",
         "passWithNoTests": true
       }
     },
     "build": {
-      "executor": "@nrwl/node:package",
+      "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/eslint-plugin-react-native",
