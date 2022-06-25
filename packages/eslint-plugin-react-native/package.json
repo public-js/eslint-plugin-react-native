@@ -1,6 +1,6 @@
 {
   "name": "@public-js/eslint-plugin-react-native",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Helpful ESLint rules for React Native",
   "dependencies": {
     "@typescript-eslint/experimental-utils": "^4.8.2 || ^5.0.0"
